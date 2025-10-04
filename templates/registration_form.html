@@ -1,0 +1,44 @@
+<main class="form-signin">
+<form method="POST" action="?action=registration">
+	<div class="form-floating">
+    
+    <input type="text" class="form-control" id="username"  name="username" aria-describedby="usernameHelp">
+    <label for="username" class="form-label">Имя:</label>
+    <div id="usernameHelp" class="form-text">Имя по-русски</div>
+  </div>
+	<div class="form-floating">
+    
+    <input type="text" class="form-control" id="userlastname"  name="userlastname" aria-describedby="userlastnameHelp">
+    
+    <div id="userlastnameHelp" class="form-text">Фамилия по-русски</div>
+    <label for="userlastname" class="form-label">Фамилия:</label>
+  </div>
+	<div class="form-floating">
+    
+    <input type="text" class="form-control" id="login"  name="login" aria-describedby="loginHelp">
+    <label for="login" class="form-label">Логин:</label>
+    <div id="loginHelp" class="form-text">Латинские буквы, цифры и знак _</div>
+  </div>
+	<div class="form-floating">
+    
+    <input type="password" class="form-control" id="password"  name="password"  aria-describedby="passwordHelpBlock">
+    <label for="password" class="form-label">Пароль</label>
+    <div id="passwordHelpBlock" class="form-text">
+  Ваш пароль должен состоять из 8-20 символов, содержать буквы и цифры и не должен содержать пробелов, специальных символов или эмодзи.
+</div>
+  </div>
+	<div class="form-floating">
+    
+    <input type="password" class="form-control" id="repassword"  name="repassword">
+    <label for="repassword" class="form-label">Повторите пароль:</label>
+  </div>
+	<div class="form-floating">
+    
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+    <label for="email" class="form-label">Адрес электронной почты</label>
+    <div id="emailHelp" class="form-text">Мы никогда никому не передадим вашу электронную почту.</div>
+  </div>
+  
+	<input   class="w-100 btn btn-lg btn-primary"  type="submit" name="register">
+</form>
+</main>
